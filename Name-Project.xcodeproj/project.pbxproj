@@ -78,6 +78,23 @@
 		BF77ECEA215CD02500CB6668 /* Name-Project */ = {
 			isa = PBXGroup;
 			children = (
+				BF77ECFD215CD2BE00CB6668 /* AppInfo */,
+				BF77ED05215CD3B900CB6668 /* APIService */,
+				BF77ECFE215CD2CD00CB6668 /* Extensions */,
+				BF77ECFF215CD2DC00CB6668 /* Features */,
+				BF77ED01215CD2FA00CB6668 /* Library */,
+				BF77ED02215CD30700CB6668 /* Models */,
+				BF77ED04215CD37F00CB6668 /* Protocols */,
+				BF77ED03215CD31100CB6668 /* Resources */,
+				BF77ED06215CD41D00CB6668 /* UI */,
+				BF77ED00215CD2EC00CB6668 /* Utilities */,
+			);
+			path = "Name-Project";
+			sourceTree = "<group>";
+		};
+		BF77ECFD215CD2BE00CB6668 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
 				BF77ECEB215CD02500CB6668 /* AppDelegate.swift */,
 				BF77ECED215CD02500CB6668 /* ViewController.swift */,
 				BF77ECEF215CD02500CB6668 /* Main.storyboard */,
@@ -85,7 +102,70 @@
 				BF77ECF4215CD02600CB6668 /* LaunchScreen.storyboard */,
 				BF77ECF7215CD02600CB6668 /* Info.plist */,
 			);
-			path = "Name-Project";
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		BF77ECFE215CD2CD00CB6668 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BF77ECFF215CD2DC00CB6668 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BF77ED00215CD2EC00CB6668 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BF77ED01215CD2FA00CB6668 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BF77ED02215CD30700CB6668 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF77ED03215CD31100CB6668 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF77ED04215CD37F00CB6668 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BF77ED05215CD3B900CB6668 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		BF77ED06215CD41D00CB6668 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
-				INFOPLIST_FILE = "Name-Project/Info.plist";
+				INFOPLIST_FILE = "Name-Project/AppInfo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
-				INFOPLIST_FILE = "Name-Project/Info.plist";
+				INFOPLIST_FILE = "Name-Project/AppInfo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
