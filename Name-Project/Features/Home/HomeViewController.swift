@@ -15,6 +15,7 @@ class HomeViewController: UIViewController {
 
         self.title = "Home"
         self.view.backgroundColor = #colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1)
+
         // Do any additional setup after loading the view.
     }
 

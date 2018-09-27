@@ -23,6 +23,7 @@
 		BF77ECF5215CD02600CB6668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF77ECF7215CD02600CB6668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF77ED08215CD78200CB6668 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF77ED0A215CDCD800CB6668 /* Name-Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Name-Project-Bridging-Header.h"; sourceTree = "<group>"; };
 		C6E191FD7FC1475A9FA8A362 /* Pods-Name-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Name-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +98,7 @@
 				BF77ECF2215CD02600CB6668 /* Assets.xcassets */,
 				BF77ECF4215CD02600CB6668 /* LaunchScreen.storyboard */,
 				BF77ECF7215CD02600CB6668 /* Info.plist */,
+				BF77ED0A215CDCD800CB6668 /* Name-Project-Bridging-Header.h */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -431,6 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan89.Name-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Name-Project/AppInfo/Name-Project-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan89.Name-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Name-Project/AppInfo/Name-Project-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
