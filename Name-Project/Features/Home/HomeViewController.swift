@@ -10,12 +10,35 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var myView = UIView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Home"
-        self.view.setThemeBackgroundColor(keyPath: ThemeKeys.View.backgroundColor2.key, alpha: AlphaColor.disable)
+        self.initializeUI()
         // Do any additional setup after loading the view.
+    }
+    
+    // MARK: Initialize UI
+    func initializeUI() {
+        
+        self.title = "Home"
+        self.view.setThemeBackgroundColor(keyPath: ThemeKeys.View.backgroundColor.key)
+        
+        // myView
+        self.myView.setThemeBackgroundColor(keyPath: ThemeKeys.View.backgroundColor3.key)
+        self.view.addSubview(self.myView)
+        
+        // set constraint layout
+        
+        // myView
+        self.myView.snp.makeConstraints { [weak self] (maker) in
+            
+            guard let strongSelf = self else { return }
+            
+            maker.center.equalTo(strongSelf.view)
+            maker.width.height.equalTo(200)
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -31,5 +31,10 @@ struct ThemeKeys {
         struct backgroundColor2: ThemeKeyProtocol {
             static private(set) var key: String = ThemeKeys.mergeKeys(firstKey: View.key, secondKey: "backgroundColor2")
         }
+        
+        /// White
+        struct backgroundColor3: ThemeKeyProtocol {
+            static private(set) var key: String = ThemeKeys.mergeKeys(firstKey: View.key, secondKey: "backgroundColor3")
+        }
     }
 }

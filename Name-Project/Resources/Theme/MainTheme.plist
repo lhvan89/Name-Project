@@ -8,6 +8,8 @@
 		<string>#0e0f1a</string>
 		<key>backgroundColor2</key>
 		<string>#F24</string>
+		<key>backgroundColor3</key>
+		<string>#ffffff</string>
 	</dict>
 </dict>
 </plist>

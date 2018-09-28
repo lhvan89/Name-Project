@@ -10,5 +10,6 @@
 #define Name_Project_Bridging_Header_h
 
 @import SwiftTheme;
+@import SnapKit;
 
 #endif /* Name_Project_Bridging_Header_h */

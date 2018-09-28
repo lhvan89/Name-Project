@@ -9,5 +9,6 @@ target 'Name-Project' do
   
   pod 'SwiftTheme'
   pod 'SwiftyBeaver'
+  pod 'SnapKit', '~> 4.0.0'
   
 end
