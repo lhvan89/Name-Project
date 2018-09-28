@@ -10,5 +10,6 @@ target 'Name-Project' do
   pod 'SwiftTheme'
   pod 'SwiftyBeaver'
   pod 'SnapKit', '~> 4.0.0'
+  pod 'Localize-Swift', '~> 2.0'
   
 end

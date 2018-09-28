@@ -11,5 +11,6 @@
 
 @import SwiftTheme;
 @import SnapKit;
+@import Localize_Swift;
 
 #endif /* Name_Project_Bridging_Header_h */
