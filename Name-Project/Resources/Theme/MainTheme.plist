@@ -2,13 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
+	<key>view</key>
 	<dict>
-		<key>Name-Project.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
+		<key>backgroundColor</key>
+		<string>#0e0f1a</string>
+		<key>backgroundColor2</key>
+		<string>#F24</string>
 	</dict>
 </dict>
 </plist>

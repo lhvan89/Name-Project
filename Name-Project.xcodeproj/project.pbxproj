@@ -12,6 +12,12 @@
 		BF77ECF3215CD02600CB6668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF77ECF2215CD02600CB6668 /* Assets.xcassets */; };
 		BF77ECF6215CD02600CB6668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF77ECF4215CD02600CB6668 /* LaunchScreen.storyboard */; };
 		BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77ED08215CD78200CB6668 /* HomeViewController.swift */; };
+		BFEC2332215DC9BC0086A899 /* MainTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFEC2331215DC9BC0086A899 /* MainTheme.plist */; };
+		BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2334215DCB720086A899 /* ThemeKeys.swift */; };
+		BFEC2337215DCEF20086A899 /* SwiftTheme+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */; };
+		BFEC2339215DD0200086A899 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2338215DD0200086A899 /* Utilities.swift */; };
+		BFEC233C215DD3880086A899 /* AlphaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC233B215DD3880086A899 /* AlphaColor.swift */; };
+		BFEC233E215DD68C0086A899 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC233D215DD68C0086A899 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		BF77ECF7215CD02600CB6668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF77ED08215CD78200CB6668 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BF77ED0A215CDCD800CB6668 /* Name-Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Name-Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFEC2331215DC9BC0086A899 /* MainTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainTheme.plist; sourceTree = "<group>"; };
+		BFEC2334215DCB720086A899 /* ThemeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeys.swift; sourceTree = "<group>"; };
+		BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftTheme+Extensions.swift"; sourceTree = "<group>"; };
+		BFEC2338215DD0200086A899 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BFEC233B215DD3880086A899 /* AlphaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaColor.swift; sourceTree = "<group>"; };
+		BFEC233D215DD68C0086A899 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		C6E191FD7FC1475A9FA8A362 /* Pods-Name-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Name-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +118,7 @@
 		BF77ECFE215CD2CD00CB6668 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -121,6 +134,10 @@
 		BF77ED00215CD2EC00CB6668 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				BFEC233A215DD35D0086A899 /* Style */,
+				BFEC2333215DCB400086A899 /* Helpers */,
+				BFEC2338215DD0200086A899 /* Utilities.swift */,
+				BFEC233D215DD68C0086A899 /* AppConfig.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -142,6 +159,7 @@
 		BF77ED03215CD31100CB6668 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF77ED0B215CE6F600CB6668 /* Theme */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -173,6 +191,30 @@
 				BF77ED08215CD78200CB6668 /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		BF77ED0B215CE6F600CB6668 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC2331215DC9BC0086A899 /* MainTheme.plist */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BFEC2333215DCB400086A899 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC2334215DCB720086A899 /* ThemeKeys.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BFEC233A215DD35D0086A899 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC233B215DD3880086A899 /* AlphaColor.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF77ECF6215CD02600CB6668 /* LaunchScreen.storyboard in Resources */,
+				BFEC2332215DC9BC0086A899 /* MainTheme.plist in Resources */,
 				BF77ECF3215CD02600CB6668 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +312,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -286,8 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEC233C215DD3880086A899 /* AlphaColor.swift in Sources */,
 				BF77ECEC215CD02500CB6668 /* AppDelegate.swift in Sources */,
+				BFEC2337215DCEF20086A899 /* SwiftTheme+Extensions.swift in Sources */,
+				BFEC233E215DD68C0086A899 /* AppConfig.swift in Sources */,
 				BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */,
+				BFEC2339215DD0200086A899 /* Utilities.swift in Sources */,
+				BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

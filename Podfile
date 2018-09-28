@@ -8,5 +8,6 @@ target 'Name-Project' do
   # Pods for Name-Project
   
   pod 'SwiftTheme'
+  pod 'SwiftyBeaver'
   
 end
