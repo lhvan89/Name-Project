@@ -19,6 +19,9 @@
 		BFAF55592161BEFA0051BCFB /* UIKit+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */; };
 		BFAF555C2161C3840051BCFB /* LocalizeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */; };
 		BFAF55602161D8210051BCFB /* UITextField+Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF555F2161D8210051BCFB /* UITextField+Padding.swift */; };
+		BFAF55682161E4970051BCFB /* HasTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55672161E4970051BCFB /* HasTableView.swift */; };
+		BFAF556A2161E5210051BCFB /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55692161E5210051BCFB /* Identifiable.swift */; };
+		BFAF558B216204310051BCFB /* BaseTableCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF558A216204310051BCFB /* BaseTableCellProtocol.swift */; };
 		BFBEC4C0215E3E1400E0EB36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBEC4C2215E3E1400E0EB36 /* Localizable.strings */; };
 		BFEC2332215DC9BC0086A899 /* MainTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFEC2331215DC9BC0086A899 /* MainTheme.plist */; };
 		BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2334215DCB720086A899 /* ThemeKeys.swift */; };
@@ -45,6 +48,9 @@
 		BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Localizable.swift"; sourceTree = "<group>"; };
 		BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeStrings.swift; sourceTree = "<group>"; };
 		BFAF555F2161D8210051BCFB /* UITextField+Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Padding.swift"; sourceTree = "<group>"; };
+		BFAF55672161E4970051BCFB /* HasTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasTableView.swift; sourceTree = "<group>"; };
+		BFAF55692161E5210051BCFB /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		BFAF558A216204310051BCFB /* BaseTableCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCellProtocol.swift; sourceTree = "<group>"; };
 		BFBEC4C1215E3E1400E0EB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BFEC2331215DC9BC0086A899 /* MainTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainTheme.plist; sourceTree = "<group>"; };
 		BFEC2334215DCB720086A899 /* ThemeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeys.swift; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 		BF77ECFF215CD2DC00CB6668 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BFAF558C216204790051BCFB /* Base */,
 				BF77ED07215CD77000CB6668 /* Home */,
 			);
 			path = Features;
@@ -186,6 +193,9 @@
 		BF77ED04215CD37F00CB6668 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				BFAF55672161E4970051BCFB /* HasTableView.swift */,
+				BFAF55692161E5210051BCFB /* Identifiable.swift */,
+				BFAF558A216204310051BCFB /* BaseTableCellProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -233,6 +243,13 @@
 			path = ../../../ShoeBuddy/ShoeBuddy/Library/LocalizePicker;
 			sourceTree = "<group>";
 		};
+		BFAF558C216204790051BCFB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		BFEC2333215DCB400086A899 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +280,7 @@
 				BF77ECE6215CD02500CB6668 /* Resources */,
 				F670057922F23A24A097B37E /* [CP] Embed Pods Frameworks */,
 				BFAF555A2161C31A0051BCFB /* Compile Localization */,
+				879059CE5A66C257E6068E4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,6 +339,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		879059CE5A66C257E6068E4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BFAF555A2161C31A0051BCFB /* Compile Localization */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +396,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -368,6 +412,14 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -390,6 +442,7 @@
 				BF77ECEC215CD02500CB6668 /* AppDelegate.swift in Sources */,
 				BFAF55582161BEFA0051BCFB /* LocalizeStatePicker.swift in Sources */,
 				BFAF55572161BEFA0051BCFB /* LocalizeKey.swift in Sources */,
+				BFAF558B216204310051BCFB /* BaseTableCellProtocol.swift in Sources */,
 				BFEC2337215DCEF20086A899 /* SwiftTheme+Extensions.swift in Sources */,
 				BFEC233E215DD68C0086A899 /* AppConfig.swift in Sources */,
 				BFAF55562161BEFA0051BCFB /* NSObject+Localizable.swift in Sources */,
@@ -397,6 +450,8 @@
 				BFAF55592161BEFA0051BCFB /* UIKit+Localizable.swift in Sources */,
 				BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */,
 				BFAF55552161BEFA0051BCFB /* LocalizePicker.swift in Sources */,
+				BFAF556A2161E5210051BCFB /* Identifiable.swift in Sources */,
+				BFAF55682161E4970051BCFB /* HasTableView.swift in Sources */,
 				BFAF55602161D8210051BCFB /* UITextField+Padding.swift in Sources */,
 				BFEC2339215DD0200086A899 /* Utilities.swift in Sources */,
 				BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */,

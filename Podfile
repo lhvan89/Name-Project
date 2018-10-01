@@ -12,5 +12,7 @@ target 'Name-Project' do
   pod 'SnapKit', '~> 4.0.0'
   pod 'Localize-Swift', '~> 2.0'
   pod 'IQKeyboardManagerSwift', '~> 6.0.4'
+  pod 'FacebookLogin'
+  pod 'GoogleSignIn'
   
 end
