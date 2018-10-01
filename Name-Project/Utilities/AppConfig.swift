@@ -15,5 +15,7 @@ class AppConfig: NSObject {
     func configure() {
         
         ThemeManager.setTheme(plistName: "MainTheme", path: .mainBundle)
+        
+        Localize.setCurrentLanguage("en")
     }
 }

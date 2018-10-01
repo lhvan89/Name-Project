@@ -12,8 +12,13 @@
 		BF77ECF3215CD02600CB6668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF77ECF2215CD02600CB6668 /* Assets.xcassets */; };
 		BF77ECF6215CD02600CB6668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF77ECF4215CD02600CB6668 /* LaunchScreen.storyboard */; };
 		BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77ED08215CD78200CB6668 /* HomeViewController.swift */; };
+		BFAF55552161BEFA0051BCFB /* LocalizePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55502161BEFA0051BCFB /* LocalizePicker.swift */; };
+		BFAF55562161BEFA0051BCFB /* NSObject+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55512161BEFA0051BCFB /* NSObject+Localizable.swift */; };
+		BFAF55572161BEFA0051BCFB /* LocalizeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55522161BEFA0051BCFB /* LocalizeKey.swift */; };
+		BFAF55582161BEFA0051BCFB /* LocalizeStatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55532161BEFA0051BCFB /* LocalizeStatePicker.swift */; };
+		BFAF55592161BEFA0051BCFB /* UIKit+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */; };
+		BFAF555C2161C3840051BCFB /* LocalizeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */; };
 		BFBEC4C0215E3E1400E0EB36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBEC4C2215E3E1400E0EB36 /* Localizable.strings */; };
-		BFBEC4D1215E462600E0EB36 /* LocalizeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBEC4D0215E462600E0EB36 /* LocalizeStrings.swift */; };
 		BFEC2332215DC9BC0086A899 /* MainTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFEC2331215DC9BC0086A899 /* MainTheme.plist */; };
 		BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2334215DCB720086A899 /* ThemeKeys.swift */; };
 		BFEC2337215DCEF20086A899 /* SwiftTheme+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */; };
@@ -32,8 +37,13 @@
 		BF77ECF7215CD02600CB6668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF77ED08215CD78200CB6668 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BF77ED0A215CDCD800CB6668 /* Name-Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Name-Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFAF55502161BEFA0051BCFB /* LocalizePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizePicker.swift; sourceTree = "<group>"; };
+		BFAF55512161BEFA0051BCFB /* NSObject+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Localizable.swift"; sourceTree = "<group>"; };
+		BFAF55522161BEFA0051BCFB /* LocalizeKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeKey.swift; sourceTree = "<group>"; };
+		BFAF55532161BEFA0051BCFB /* LocalizeStatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeStatePicker.swift; sourceTree = "<group>"; };
+		BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Localizable.swift"; sourceTree = "<group>"; };
+		BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeStrings.swift; sourceTree = "<group>"; };
 		BFBEC4C1215E3E1400E0EB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		BFBEC4D0215E462600E0EB36 /* LocalizeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeStrings.swift; sourceTree = "<group>"; };
 		BFEC2331215DC9BC0086A899 /* MainTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainTheme.plist; sourceTree = "<group>"; };
 		BFEC2334215DCB720086A899 /* ThemeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeys.swift; sourceTree = "<group>"; };
 		BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftTheme+Extensions.swift"; sourceTree = "<group>"; };
@@ -150,6 +160,7 @@
 		BF77ED01215CD2FA00CB6668 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				BFAF554F2161BEFA0051BCFB /* LocalizePicker */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -206,11 +217,24 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
+		BFAF554F2161BEFA0051BCFB /* LocalizePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF55502161BEFA0051BCFB /* LocalizePicker.swift */,
+				BFAF55512161BEFA0051BCFB /* NSObject+Localizable.swift */,
+				BFAF55522161BEFA0051BCFB /* LocalizeKey.swift */,
+				BFAF55532161BEFA0051BCFB /* LocalizeStatePicker.swift */,
+				BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */,
+			);
+			name = LocalizePicker;
+			path = ../../../ShoeBuddy/ShoeBuddy/Library/LocalizePicker;
+			sourceTree = "<group>";
+		};
 		BFEC2333215DCB400086A899 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				BFEC2334215DCB720086A899 /* ThemeKeys.swift */,
-				BFBEC4D0215E462600E0EB36 /* LocalizeStrings.swift */,
+				BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -235,6 +259,7 @@
 				BF77ECE5215CD02500CB6668 /* Frameworks */,
 				BF77ECE6215CD02500CB6668 /* Resources */,
 				F670057922F23A24A097B37E /* [CP] Embed Pods Frameworks */,
+				BFAF555A2161C31A0051BCFB /* Compile Localization */,
 			);
 			buildRules = (
 			);
@@ -293,6 +318,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		BFAF555A2161C31A0051BCFB /* Compile Localization */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Localization";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"${SRCROOT}/Name-Project/Utilities/Helpers/LocalizeStrings.swift\"\n\"${SRCROOT}/Scripts/Localizations.swift\" \"${SRCROOT}/Name-Project/AppInfo/en.lproj/Localizable.strings\" \"${SRCROOT}/Name-Project/Utilities/Helpers/LocalizeStrings.swift\"\nchmod -w \"${SRCROOT}/Name-Project/Utilities/Helpers/LocalizeStrings.swift\"";
+		};
 		D8CC4E0822241748CF59AB8F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,10 +383,15 @@
 			files = (
 				BFEC233C215DD3880086A899 /* AlphaColor.swift in Sources */,
 				BF77ECEC215CD02500CB6668 /* AppDelegate.swift in Sources */,
+				BFAF55582161BEFA0051BCFB /* LocalizeStatePicker.swift in Sources */,
+				BFAF55572161BEFA0051BCFB /* LocalizeKey.swift in Sources */,
 				BFEC2337215DCEF20086A899 /* SwiftTheme+Extensions.swift in Sources */,
 				BFEC233E215DD68C0086A899 /* AppConfig.swift in Sources */,
+				BFAF55562161BEFA0051BCFB /* NSObject+Localizable.swift in Sources */,
+				BFAF555C2161C3840051BCFB /* LocalizeStrings.swift in Sources */,
+				BFAF55592161BEFA0051BCFB /* UIKit+Localizable.swift in Sources */,
 				BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */,
-				BFBEC4D1215E462600E0EB36 /* LocalizeStrings.swift in Sources */,
+				BFAF55552161BEFA0051BCFB /* LocalizePicker.swift in Sources */,
 				BFEC2339215DD0200086A899 /* Utilities.swift in Sources */,
 				BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */,
 			);

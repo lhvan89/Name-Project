@@ -22,7 +22,8 @@ class HomeViewController: UIViewController {
     // MARK: Initialize UI
     func initializeUI() {
         
-        self.title = "Home"
+        self.title = LocalizeStrings.Home.Nav.titleString
+        
         self.view.setThemeBackgroundColor(keyPath: ThemeKeys.View.backgroundColor.key)
         
         // myView
