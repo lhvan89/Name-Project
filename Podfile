@@ -11,5 +11,6 @@ target 'Name-Project' do
   pod 'SwiftyBeaver'
   pod 'SnapKit', '~> 4.0.0'
   pod 'Localize-Swift', '~> 2.0'
+  pod 'IQKeyboardManagerSwift', '~> 6.0.4'
   
 end

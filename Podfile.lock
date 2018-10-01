@@ -1,10 +1,12 @@
 PODS:
+  - IQKeyboardManagerSwift (6.0.5)
   - Localize-Swift (2.0.0)
   - SnapKit (4.0.0)
   - SwiftTheme (0.4.1)
   - SwiftyBeaver (1.6.0)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift (~> 6.0.4)
   - Localize-Swift (~> 2.0)
   - SnapKit (~> 4.0.0)
   - SwiftTheme
@@ -12,17 +14,19 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
     - Localize-Swift
     - SnapKit
     - SwiftTheme
     - SwiftyBeaver
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c14eca30f6001457d6ddf25e313f23fb6578c41c
   Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftTheme: 36d71c4eed4b2c401c782cf036e4586c749a8173
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 
-PODFILE CHECKSUM: a14ba2b7b5decfeb6e0ec317db268be368a0ac09
+PODFILE CHECKSUM: 292d961f62e3354ab7c3badbff4c722828f3649f
 
 COCOAPODS: 1.5.3

@@ -18,6 +18,7 @@
 		BFAF55582161BEFA0051BCFB /* LocalizeStatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55532161BEFA0051BCFB /* LocalizeStatePicker.swift */; };
 		BFAF55592161BEFA0051BCFB /* UIKit+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */; };
 		BFAF555C2161C3840051BCFB /* LocalizeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */; };
+		BFAF55602161D8210051BCFB /* UITextField+Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF555F2161D8210051BCFB /* UITextField+Padding.swift */; };
 		BFBEC4C0215E3E1400E0EB36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBEC4C2215E3E1400E0EB36 /* Localizable.strings */; };
 		BFEC2332215DC9BC0086A899 /* MainTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFEC2331215DC9BC0086A899 /* MainTheme.plist */; };
 		BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC2334215DCB720086A899 /* ThemeKeys.swift */; };
@@ -43,6 +44,7 @@
 		BFAF55532161BEFA0051BCFB /* LocalizeStatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeStatePicker.swift; sourceTree = "<group>"; };
 		BFAF55542161BEFA0051BCFB /* UIKit+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Localizable.swift"; sourceTree = "<group>"; };
 		BFAF555B2161C3840051BCFB /* LocalizeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeStrings.swift; sourceTree = "<group>"; };
+		BFAF555F2161D8210051BCFB /* UITextField+Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Padding.swift"; sourceTree = "<group>"; };
 		BFBEC4C1215E3E1400E0EB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BFEC2331215DC9BC0086A899 /* MainTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainTheme.plist; sourceTree = "<group>"; };
 		BFEC2334215DCB720086A899 /* ThemeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeys.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */,
+				BFAF555F2161D8210051BCFB /* UITextField+Padding.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
@@ -364,6 +368,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
@@ -392,6 +397,7 @@
 				BFAF55592161BEFA0051BCFB /* UIKit+Localizable.swift in Sources */,
 				BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */,
 				BFAF55552161BEFA0051BCFB /* LocalizePicker.swift in Sources */,
+				BFAF55602161D8210051BCFB /* UITextField+Padding.swift in Sources */,
 				BFEC2339215DD0200086A899 /* Utilities.swift in Sources */,
 				BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */,
 			);

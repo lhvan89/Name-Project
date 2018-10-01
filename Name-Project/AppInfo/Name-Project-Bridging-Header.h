@@ -12,5 +12,6 @@
 @import SwiftTheme;
 @import SnapKit;
 @import Localize_Swift;
+@import IQKeyboardManagerSwift;
 
 #endif /* Name_Project_Bridging_Header_h */
