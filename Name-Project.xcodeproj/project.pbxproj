@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		255F60ED93AC9FE6C3AEDACF /* Pods_Name_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A8C40DD31CE8EEBD0401CD /* Pods_Name_Project.framework */; };
+		BF17CC07216465EA008A3EF1 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17CC06216465EA008A3EF1 /* SignUpViewModel.swift */; };
+		BF17CC0921646695008A3EF1 /* SocialButtonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17CC0821646695008A3EF1 /* SocialButtonTableCell.swift */; };
+		BF17CC0F21647AC2008A3EF1 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF17CC0B21647AC1008A3EF1 /* Lato-Light.ttf */; };
+		BF17CC1021647AC2008A3EF1 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF17CC0C21647AC1008A3EF1 /* Lato-Bold.ttf */; };
+		BF17CC1121647AC2008A3EF1 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF17CC0D21647AC1008A3EF1 /* Lato-Black.ttf */; };
+		BF17CC1221647AC2008A3EF1 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF17CC0E21647AC2008A3EF1 /* Lato-Regular.ttf */; };
 		BF19A4A9216218E700AC0EB3 /* LocalizePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19A4A4216218E700AC0EB3 /* LocalizePicker.swift */; };
 		BF19A4AA216218E700AC0EB3 /* NSObject+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19A4A5216218E700AC0EB3 /* NSObject+Localizable.swift */; };
 		BF19A4AB216218E700AC0EB3 /* LocalizeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19A4A6216218E700AC0EB3 /* LocalizeKey.swift */; };
 		BF19A4AC216218E700AC0EB3 /* LocalizeStatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19A4A7216218E700AC0EB3 /* LocalizeStatePicker.swift */; };
 		BF19A4AD216218E700AC0EB3 /* UIKit+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19A4A8216218E700AC0EB3 /* UIKit+Localizable.swift */; };
+		BF21D1D421649EA200F4EC61 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1D321649EA200F4EC61 /* FontStyle.swift */; };
+		BF21D1D62164B98200F4EC61 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1D52164B98200F4EC61 /* ButtonStyle.swift */; };
+		BF21D1D82164C43500F4EC61 /* ACTextFieldTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1D72164C43500F4EC61 /* ACTextFieldTableCell.swift */; };
+		BF21D1DA2164CF9000F4EC61 /* ACButtonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1D92164CF9000F4EC61 /* ACButtonTableCell.swift */; };
+		BF21D1DC2164D1CC00F4EC61 /* ACTextContentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1DB2164D1CC00F4EC61 /* ACTextContentTableCell.swift */; };
+		BF21D1DE2164D26400F4EC61 /* ACAgreementTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1DD2164D26400F4EC61 /* ACAgreementTableCell.swift */; };
+		BF21D1E02164D2BF00F4EC61 /* NSMutableAttributedString+setColorForText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1DF2164D2BF00F4EC61 /* NSMutableAttributedString+setColorForText.swift */; };
+		BF21D1E22164D3B500F4EC61 /* UITapGestureRecognizer+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D1E12164D3B500F4EC61 /* UITapGestureRecognizer+AttributedText.swift */; };
+		BF707338216386E500CFFC0B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF707337216386E500CFFC0B /* SignUpViewController.swift */; };
 		BF77ECEC215CD02500CB6668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77ECEB215CD02500CB6668 /* AppDelegate.swift */; };
 		BF77ECF3215CD02600CB6668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF77ECF2215CD02600CB6668 /* Assets.xcassets */; };
 		BF77ECF6215CD02600CB6668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF77ECF4215CD02600CB6668 /* LaunchScreen.storyboard */; };
@@ -34,11 +49,26 @@
 /* Begin PBXFileReference section */
 		39A8C40DD31CE8EEBD0401CD /* Pods_Name_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Name_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C44C9927D5E7828A8E7DAD9 /* Pods-Name-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Name-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Name-Project/Pods-Name-Project.release.xcconfig"; sourceTree = "<group>"; };
+		BF17CC06216465EA008A3EF1 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		BF17CC0821646695008A3EF1 /* SocialButtonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonTableCell.swift; sourceTree = "<group>"; };
+		BF17CC0B21647AC1008A3EF1 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		BF17CC0C21647AC1008A3EF1 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		BF17CC0D21647AC1008A3EF1 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		BF17CC0E21647AC2008A3EF1 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		BF19A4A4216218E700AC0EB3 /* LocalizePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizePicker.swift; sourceTree = "<group>"; };
 		BF19A4A5216218E700AC0EB3 /* NSObject+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Localizable.swift"; sourceTree = "<group>"; };
 		BF19A4A6216218E700AC0EB3 /* LocalizeKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeKey.swift; sourceTree = "<group>"; };
 		BF19A4A7216218E700AC0EB3 /* LocalizeStatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeStatePicker.swift; sourceTree = "<group>"; };
 		BF19A4A8216218E700AC0EB3 /* UIKit+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Localizable.swift"; sourceTree = "<group>"; };
+		BF21D1D321649EA200F4EC61 /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		BF21D1D52164B98200F4EC61 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		BF21D1D72164C43500F4EC61 /* ACTextFieldTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTextFieldTableCell.swift; sourceTree = "<group>"; };
+		BF21D1D92164CF9000F4EC61 /* ACButtonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACButtonTableCell.swift; sourceTree = "<group>"; };
+		BF21D1DB2164D1CC00F4EC61 /* ACTextContentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTextContentTableCell.swift; sourceTree = "<group>"; };
+		BF21D1DD2164D26400F4EC61 /* ACAgreementTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAgreementTableCell.swift; sourceTree = "<group>"; };
+		BF21D1DF2164D2BF00F4EC61 /* NSMutableAttributedString+setColorForText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+setColorForText.swift"; sourceTree = "<group>"; };
+		BF21D1E12164D3B500F4EC61 /* UITapGestureRecognizer+AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+AttributedText.swift"; sourceTree = "<group>"; };
+		BF707337216386E500CFFC0B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BF77ECE8215CD02500CB6668 /* Name-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Name-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF77ECEB215CD02500CB6668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF77ECF2215CD02600CB6668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +120,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BF17CC0A21647A9E008A3EF1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BF17CC0D21647AC1008A3EF1 /* Lato-Black.ttf */,
+				BF17CC0C21647AC1008A3EF1 /* Lato-Bold.ttf */,
+				BF17CC0B21647AC1008A3EF1 /* Lato-Light.ttf */,
+				BF17CC0E21647AC2008A3EF1 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		BF19A4A3216218E700AC0EB3 /* LocalizePicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +141,36 @@
 				BF19A4A8216218E700AC0EB3 /* UIKit+Localizable.swift */,
 			);
 			path = LocalizePicker;
+			sourceTree = "<group>";
+		};
+		BF7073342163864900CFFC0B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BF7073352163864900CFFC0B /* SignUp */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BF7073352163864900CFFC0B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BF7073362163864900CFFC0B /* Cells */,
+				BF707337216386E500CFFC0B /* SignUpViewController.swift */,
+				BF17CC06216465EA008A3EF1 /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		BF7073362163864900CFFC0B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BF17CC0821646695008A3EF1 /* SocialButtonTableCell.swift */,
+				BF21D1D72164C43500F4EC61 /* ACTextFieldTableCell.swift */,
+				BF21D1D92164CF9000F4EC61 /* ACButtonTableCell.swift */,
+				BF21D1DB2164D1CC00F4EC61 /* ACTextContentTableCell.swift */,
+				BF21D1DD2164D26400F4EC61 /* ACAgreementTableCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BF77ECDF215CD02500CB6668 = {
@@ -155,6 +226,8 @@
 			children = (
 				BFEC2336215DCEF20086A899 /* SwiftTheme+Extensions.swift */,
 				BFAF555F2161D8210051BCFB /* UITextField+Padding.swift */,
+				BF21D1DF2164D2BF00F4EC61 /* NSMutableAttributedString+setColorForText.swift */,
+				BF21D1E12164D3B500F4EC61 /* UITapGestureRecognizer+AttributedText.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -162,6 +235,7 @@
 		BF77ECFF215CD2DC00CB6668 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BF7073342163864900CFFC0B /* Account */,
 				BFAF558C216204790051BCFB /* Base */,
 				BF77ED07215CD77000CB6668 /* Home */,
 			);
@@ -197,6 +271,7 @@
 		BF77ED03215CD31100CB6668 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF17CC0A21647A9E008A3EF1 /* Fonts */,
 				BF77ED0B215CE6F600CB6668 /* Theme */,
 			);
 			path = Resources;
@@ -262,6 +337,8 @@
 			isa = PBXGroup;
 			children = (
 				BFEC233B215DD3880086A899 /* AlphaColor.swift */,
+				BF21D1D321649EA200F4EC61 /* FontStyle.swift */,
+				BF21D1D52164B98200F4EC61 /* ButtonStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -328,6 +405,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF17CC1121647AC2008A3EF1 /* Lato-Black.ttf in Resources */,
+				BF17CC0F21647AC2008A3EF1 /* Lato-Light.ttf in Resources */,
+				BF17CC1021647AC2008A3EF1 /* Lato-Bold.ttf in Resources */,
+				BF17CC1221647AC2008A3EF1 /* Lato-Regular.ttf in Resources */,
 				BF77ECF6215CD02600CB6668 /* LaunchScreen.storyboard in Resources */,
 				BFBEC4C0215E3E1400E0EB36 /* Localizable.strings in Resources */,
 				BFEC2332215DC9BC0086A899 /* MainTheme.plist in Resources */,
@@ -440,20 +521,31 @@
 				BF19A4AA216218E700AC0EB3 /* NSObject+Localizable.swift in Sources */,
 				BF19A4A9216218E700AC0EB3 /* LocalizePicker.swift in Sources */,
 				BF19A4AD216218E700AC0EB3 /* UIKit+Localizable.swift in Sources */,
+				BF21D1DE2164D26400F4EC61 /* ACAgreementTableCell.swift in Sources */,
 				BFEC233C215DD3880086A899 /* AlphaColor.swift in Sources */,
 				BF77ECEC215CD02500CB6668 /* AppDelegate.swift in Sources */,
+				BF21D1E02164D2BF00F4EC61 /* NSMutableAttributedString+setColorForText.swift in Sources */,
+				BF17CC0921646695008A3EF1 /* SocialButtonTableCell.swift in Sources */,
+				BF17CC07216465EA008A3EF1 /* SignUpViewModel.swift in Sources */,
 				BFAF558B216204310051BCFB /* BaseTableCellProtocol.swift in Sources */,
+				BF707338216386E500CFFC0B /* SignUpViewController.swift in Sources */,
+				BF21D1D62164B98200F4EC61 /* ButtonStyle.swift in Sources */,
 				BFEC2337215DCEF20086A899 /* SwiftTheme+Extensions.swift in Sources */,
 				BF19A4AC216218E700AC0EB3 /* LocalizeStatePicker.swift in Sources */,
 				BFEC233E215DD68C0086A899 /* AppConfig.swift in Sources */,
 				BFAF555C2161C3840051BCFB /* LocalizeStrings.swift in Sources */,
+				BF21D1DC2164D1CC00F4EC61 /* ACTextContentTableCell.swift in Sources */,
 				BF77ED09215CD78200CB6668 /* HomeViewController.swift in Sources */,
 				BFAF556A2161E5210051BCFB /* Identifiable.swift in Sources */,
+				BF21D1D82164C43500F4EC61 /* ACTextFieldTableCell.swift in Sources */,
+				BF21D1E22164D3B500F4EC61 /* UITapGestureRecognizer+AttributedText.swift in Sources */,
 				BFAF55682161E4970051BCFB /* HasTableView.swift in Sources */,
+				BF21D1DA2164CF9000F4EC61 /* ACButtonTableCell.swift in Sources */,
 				BF19A4AB216218E700AC0EB3 /* LocalizeKey.swift in Sources */,
 				BFAF55602161D8210051BCFB /* UITextField+Padding.swift in Sources */,
 				BFEC2339215DD0200086A899 /* Utilities.swift in Sources */,
 				BFEC2335215DCB720086A899 /* ThemeKeys.swift in Sources */,
+				BF21D1D421649EA200F4EC61 /* FontStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -584,7 +676,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -601,6 +693,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Name-Project/AppInfo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -621,6 +714,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Name-Project/AppInfo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

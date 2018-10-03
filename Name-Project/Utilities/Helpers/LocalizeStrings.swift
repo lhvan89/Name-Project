@@ -3,6 +3,88 @@
 struct LocalizeStrings {
 
 
+	struct Account {
+
+		static var agreementTextString: String { get { return "ACCOUNT.AGREEMENT_TEXT".localized() } }
+		static func agreementText() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.AGREEMENT_TEXT") }
+		static var changePasswordString: String { get { return "ACCOUNT.CHANGE_PASSWORD".localized() } }
+		static func changePassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.CHANGE_PASSWORD") }
+		static var confirmNewPasswordString: String { get { return "ACCOUNT.CONFIRM_NEW_PASSWORD".localized() } }
+		static func confirmNewPassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.CONFIRM_NEW_PASSWORD") }
+		static var confirmPasswordString: String { get { return "ACCOUNT.CONFIRM_PASSWORD".localized() } }
+		static func confirmPassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.CONFIRM_PASSWORD") }
+		static var continueWithFacebookString: String { get { return "ACCOUNT.CONTINUE_WITH_FACEBOOK".localized() } }
+		static func continueWithFacebook() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.CONTINUE_WITH_FACEBOOK") }
+		static var continueWithGoogleString: String { get { return "ACCOUNT.CONTINUE_WITH_GOOGLE".localized() } }
+		static func continueWithGoogle() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.CONTINUE_WITH_GOOGLE") }
+		static var emailString: String { get { return "ACCOUNT.EMAIL".localized() } }
+		static func email() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.EMAIL") }
+		static var emailOrUsernameString: String { get { return "ACCOUNT.EMAIL_OR_USERNAME".localized() } }
+		static func emailOrUsername() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.EMAIL_OR_USERNAME") }
+		static var forgottenPasswordString: String { get { return "ACCOUNT.FORGOTTEN_PASSWORD".localized() } }
+		static func forgottenPassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.FORGOTTEN_PASSWORD") }
+		static var forgottenPasswordDirectionsString: String { get { return "ACCOUNT.FORGOTTEN_PASSWORD_DIRECTIONS".localized() } }
+		static func forgottenPasswordDirections() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.FORGOTTEN_PASSWORD_DIRECTIONS") }
+		static var locationString: String { get { return "ACCOUNT.LOCATION".localized() } }
+		static func location() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.LOCATION") }
+		static var loginString: String { get { return "ACCOUNT.LOGIN".localized() } }
+		static func login() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.LOGIN") }
+		static var orWithEmailString: String { get { return "ACCOUNT.OR_WITH_EMAIL".localized() } }
+		static func orWithEmail() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.OR_WITH_EMAIL") }
+		static var passwordString: String { get { return "ACCOUNT.PASSWORD".localized() } }
+		static func password() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.PASSWORD") }
+		static var privacyPolicyString: String { get { return "ACCOUNT.PRIVACY_POLICY".localized() } }
+		static func privacyPolicy() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.PRIVACY_POLICY") }
+		static var resetPasswordString: String { get { return "ACCOUNT.RESET_PASSWORD".localized() } }
+		static func resetPassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.RESET_PASSWORD") }
+		static var sendEmailString: String { get { return "ACCOUNT.SEND_EMAIL".localized() } }
+		static func sendEmail() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.SEND_EMAIL") }
+		static var signupString: String { get { return "ACCOUNT.SIGNUP".localized() } }
+		static func signup() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.SIGNUP") }
+		static var signUpString: String { get { return "ACCOUNT.SIGN_UP".localized() } }
+		static func signUp() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.SIGN_UP") }
+		static var termsAndConditionsString: String { get { return "ACCOUNT.TERMS_AND_CONDITIONS".localized() } }
+		static func termsAndConditions() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.TERMS_AND_CONDITIONS") }
+		static var typeCurrentPasswordString: String { get { return "ACCOUNT.TYPE_CURRENT_PASSWORD".localized() } }
+		static func typeCurrentPassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.TYPE_CURRENT_PASSWORD") }
+		static var typeNewPasswordString: String { get { return "ACCOUNT.TYPE_NEW_PASSWORD".localized() } }
+		static func typeNewPassword() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.TYPE_NEW_PASSWORD") }
+		static var usernameString: String { get { return "ACCOUNT.USERNAME".localized() } }
+		static func username() -> LocalizeKey { return LocalizeKey(keyPath: "ACCOUNT.USERNAME") }
+
+	}
+
+	struct ErrorMessage {
+
+		static var passwordMustContainMinimumString: String { get { return "ERROR_MESSAGE.PASSWORD_MUST_CONTAIN_MINIMUM".localized() } }
+		static func passwordMustContainMinimum() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.PASSWORD_MUST_CONTAIN_MINIMUM") }
+		static var thatEmailAddressIsAlreadyString: String { get { return "ERROR_MESSAGE.THAT_EMAIL_ADDRESS_IS_ALREADY".localized() } }
+		static func thatEmailAddressIsAlready() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THAT_EMAIL_ADDRESS_IS_ALREADY") }
+		static var thatEmailAddressIsInvalidString: String { get { return "ERROR_MESSAGE.THAT_EMAIL_ADDRESS_IS_INVALID".localized() } }
+		static func thatEmailAddressIsInvalid() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THAT_EMAIL_ADDRESS_IS_INVALID") }
+		static var thatUsernameAlreadyExistsString: String { get { return "ERROR_MESSAGE.THAT_USERNAME_ALREADY_EXISTS".localized() } }
+		static func thatUsernameAlreadyExists() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THAT_USERNAME_ALREADY_EXISTS") }
+		static var thesePasswordDoesNotMatchString: String { get { return "ERROR_MESSAGE.THESE_PASSWORD_DOES_NOT_MATCH".localized() } }
+		static func thesePasswordDoesNotMatch() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THESE_PASSWORD_DOES_NOT_MATCH") }
+		static var theConfirmPasswordMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_CONFIRM_PASSWORD_MUST_NOT_BE_BLANK".localized() } }
+		static func theConfirmPasswordMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_CONFIRM_PASSWORD_MUST_NOT_BE_BLANK") }
+		static var theCurrentPasswordMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_CURRENT_PASSWORD_MUST_NOT_BE_BLANK".localized() } }
+		static func theCurrentPasswordMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_CURRENT_PASSWORD_MUST_NOT_BE_BLANK") }
+		static var theEmailAddressMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_EMAIL_ADDRESS_MUST_NOT_BE_BLANK".localized() } }
+		static func theEmailAddressMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_EMAIL_ADDRESS_MUST_NOT_BE_BLANK") }
+		static var theEmailOrUsernameMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_EMAIL_OR_USERNAME_MUST_NOT_BE_BLANK".localized() } }
+		static func theEmailOrUsernameMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_EMAIL_OR_USERNAME_MUST_NOT_BE_BLANK") }
+		static var theNewPasswordMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_NEW_PASSWORD_MUST_NOT_BE_BLANK".localized() } }
+		static func theNewPasswordMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_NEW_PASSWORD_MUST_NOT_BE_BLANK") }
+		static var thePasswordMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_PASSWORD_MUST_NOT_BE_BLANK".localized() } }
+		static func thePasswordMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_PASSWORD_MUST_NOT_BE_BLANK") }
+		static var theUsernameMustNotBeBlankString: String { get { return "ERROR_MESSAGE.THE_USERNAME_MUST_NOT_BE_BLANK".localized() } }
+		static func theUsernameMustNotBeBlank() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.THE_USERNAME_MUST_NOT_BE_BLANK") }
+		static var tokenInvalidString: String { get { return "ERROR_MESSAGE.TOKEN_INVALID".localized() } }
+		static func tokenInvalid() -> LocalizeKey { return LocalizeKey(keyPath: "ERROR_MESSAGE.TOKEN_INVALID") }
+
+	}
+
 	struct Home {
 
 

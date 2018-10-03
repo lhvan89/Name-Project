@@ -8,3 +8,44 @@
 
 // HOME
 "HOME.NAV.TITLE" = "Home";
+
+// ACCOUNT
+"ACCOUNT.SIGNUP" = "Sign up";
+"ACCOUNT.LOGIN" = "Log in";
+"ACCOUNT.EMAIL" = "Email";
+"ACCOUNT.USERNAME" = "Username";
+"ACCOUNT.EMAIL_OR_USERNAME" = "Email or username";
+"ACCOUNT.LOCATION" = "Location";
+"ACCOUNT.PASSWORD" = "Password";
+"ACCOUNT.CONFIRM_PASSWORD" = "Confirm Password";
+"ACCOUNT.SIGN_UP" = "Sign up";
+"ACCOUNT.CONTINUE_WITH_FACEBOOK" = "Continue with Facebook";
+"ACCOUNT.CONTINUE_WITH_GOOGLE" = "Continue with Google";
+"ACCOUNT.OR_WITH_EMAIL" = "or with e-mail";
+"ACCOUNT.FORGOTTEN_PASSWORD" = "Forgotten password?";
+"ACCOUNT.RESET_PASSWORD" = "Reset password";
+"ACCOUNT.CHANGE_PASSWORD" = "Change password";
+"ACCOUNT.TYPE_CURRENT_PASSWORD" = "Type current password";
+"ACCOUNT.TYPE_NEW_PASSWORD" = "Type new password";
+"ACCOUNT.CONFIRM_NEW_PASSWORD" = "Confirm new password";
+"ACCOUNT.FORGOTTEN_PASSWORD_DIRECTIONS" = "Enter your Shoe-buddy username or the email address you used to create your account. We’ll email you instructions on how to reset your password.";
+"ACCOUNT.SEND_EMAIL" = "Send email";
+"ACCOUNT.AGREEMENT_TEXT" = "By signing up, you agree to Shoe Buddy's\nTerms and conditions of Use and Privacy Policy.";
+"ACCOUNT.TERMS_AND_CONDITIONS" = "Terms and conditions";
+"ACCOUNT.PRIVACY_POLICY" = "Privacy Policy";
+
+// ERROR_MESSAGE
+"ERROR_MESSAGE.PASSWORD_MUST_CONTAIN_MINIMUM" = "Password must contain minimum 8 characters including 1 number one upper- and one lower-case letter.";
+"ERROR_MESSAGE.THAT_EMAIL_ADDRESS_IS_ALREADY" = "That email address is already connected to an account.";
+"ERROR_MESSAGE.THAT_EMAIL_ADDRESS_IS_INVALID" = "That email address is invalid.";
+"ERROR_MESSAGE.THAT_USERNAME_ALREADY_EXISTS" = "That username already exists.";
+"ERROR_MESSAGE.THE_USERNAME_MUST_NOT_BE_BLANK" = "The username must not be blank.";
+"ERROR_MESSAGE.THE_EMAIL_OR_USERNAME_MUST_NOT_BE_BLANK" = "The email or username must not be blank.";
+"ERROR_MESSAGE.THE_CONFIRM_PASSWORD_MUST_NOT_BE_BLANK" = "The confirm password must not be blank.";
+"ERROR_MESSAGE.THE_EMAIL_ADDRESS_MUST_NOT_BE_BLANK" = "The email address must not be blank.";
+"ERROR_MESSAGE.THE_CURRENT_PASSWORD_MUST_NOT_BE_BLANK" = "The current password must not be blank.";
+"ERROR_MESSAGE.THE_NEW_PASSWORD_MUST_NOT_BE_BLANK" = "The new password must not be blank.";
+"ERROR_MESSAGE.THE_PASSWORD_MUST_NOT_BE_BLANK" = "The password must not be blank.";
+"ERROR_MESSAGE.THESE_PASSWORD_DOES_NOT_MATCH" = "These password does not match the confirm password.";
+"ERROR_MESSAGE.TOKEN_INVALID" = "Authentication Failed. Your account was expired";
+"ERROR_MESSAGE.THESE_PASSWORD_DOES_NOT_MATCH" = "These password does not match.";
